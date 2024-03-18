@@ -1,0 +1,39 @@
+head{
+	background-color: #002244;
+	color: #B0C4DE;
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url("../Images&Wireframes/background(resize).jpg");
+	color: #B0C4DE;
+	color: white;
+	padding: 0px;
+	margin: 30px;
+	border-width: 8px;
+	border-style: solid;
+	border-color: #B0C4DE;
+	text-align: center;
+	height: 92vh;
+	}
+	
+#title{
+	color: #B0C4DE;
+	padding-bottom: 25px;
+}
+
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:link {
+	color: #B0C4DE;
+}
+
+a:visited {
+	color: #B0C4DE;
+}
