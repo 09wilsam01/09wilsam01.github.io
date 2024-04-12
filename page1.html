@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="templatestyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { document.getElementById("printname").innerHTML = "Explorer: " + localStorage.getItem('name'); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="left_column">
+			<h3>The Solar System</h3>
+			<hr color="#B0C4DE" width="323.8vw">
+			<img id="left_column_img" src="column.jpg">
+		</div>
+		
+		<div id="centre_column">
+			<h3>Story</h3>
+			<hr color="#B0C4DE" width="900vw">
+			
+			<br><br>
+			<p>You are an explorer, <br>from a distant future where humans have evolved to become a spacefaring civilisation, journeying through the solar system in your space ship,<br> The Midnight Runner. <br><br><br> You are out on an exploration mission when your ship starts to groan and grumble, forcing you to land.<br><br>You realise you're passing by Saturn, with 2 of its moons relatively close, but you struggle to decide where to go.<br><br>Do you land on:</p><br>
+			<a href="titan.html">Titan?</a>
+			<br><p>or</p>
+			<a href="enceladus.html">Enceladus?</a>
+			
+		</div>
+		
+		<div id="right_column">
+			
+			<div id="right_column_text">
+				<h3>Stats</h3>
+				<hr color="#B0C4DE" width="323.8vw">
+				<br>
+				<h4 id="printname"></h4>
+				<br>
+				<h4>Objective: None</h4>
+			</div>
+			
+			<a id="homelink" href="index.html">Home</a>
+		</div>
+	</body>
+</html>

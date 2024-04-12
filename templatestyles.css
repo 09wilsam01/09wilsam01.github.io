@@ -1,0 +1,89 @@
+head {
+	color: #B0C4DE;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #091429;
+	color: #B0C4DE;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	height: 100%;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
+}
+
+#left_column {
+	color: #B0C4DE;
+	width: 25%;
+	float: left;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#left_column_img {
+	height: 88.5%;
+	width: 100%;
+}
+
+#centre_column {
+	color: #B0C4DE;
+	float: left;
+	width: 49%;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-left-style: solid;
+	border-left-color: #B0C4DE;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-right-color: #B0C4DE;
+	border-right-width: 2px;
+	text-align: center;
+}
+
+#right_column {
+	float: left;
+	width: 25.3%;
+	height: 100vh;
+	padding: 0px;
+	text-align: center;
+}
+
+#logo {
+	padding-top: 10px;
+	padding-bottom: 4px;
+	padding-right: 5px;
+	width: 22%;
+}
+
+#right_column_text {
+	padding-right: 10px;
+}
+
+#homelink{
+	position: absolute;
+    bottom:0;
+    right:0;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+a:link {
+	color: #819AE6;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+a:visited {
+	color: #819AE6;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

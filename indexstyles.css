@@ -1,0 +1,55 @@
+head {
+	background-color: #002244;
+	color: #B0C4DE;
+	font-family: Arial Black, sans-serif;
+}
+
+body {
+	background-image: url("background(resize).jpg");
+	color: #B0C4DE;
+	padding: 0vh;
+	margin: 2vh;
+	border-width: 2vh;
+	border-style: solid;
+	border-color: #B0C4DE;
+	text-align: center;
+	height: 92vh;
+	font-family: Arial Black, sans-serif;
+}
+	
+#title {
+	color: #B0C4DE;
+	margin-top: 10vh;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: Arial Black, sans-serif;
+}
+
+#info {
+	color: #B0C4DE;
+	margin-top: 10vh;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: Arial Black, sans-serif;
+}
+
+#namebox {
+	margin-top: 11vh;
+	color: #B0C4DE;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: Arial Black, sans-serif;
+}
+
+#link {
+	margin-top: 6vh;
+}
+
+a:link {
+	color: #819AE6;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: Arial Black, sans-serif;
+}
+
+a:visited {
+	color: #819AE6;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: Arial Black, sans-serif;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="indexstyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { localStorage.clear(); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="title">
+			<h1>Welcome</h1>
+			<h3>to the</h3>
+			<h2>Tales of the Space Age!</h2>
+		</div>
+		
+		<div id="info">
+			<h4>This is a text-based adventure game, set in space.</h4>
+			<h4>Go explore the solar system!</h4>
+		</div>
+		
+		<div id="namebox">
+			<p>Enter your explorer's name: </p>
+			<form>
+				<input type="text" id="item" placeholder="Name...">
+				<button type="button" onclick="enter()">Enter</button>
+			</form>
+		</div>
+		
+		<div id="link">
+			<a id="url" href="page1.html">Enter the game</a>
+		</div>
+	</body>
+</html>

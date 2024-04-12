@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="templatestyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { document.getElementById("printname").innerHTML = "Explorer: " + localStorage.getItem('name'); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="left_column">
+			<h3>Map</h3>
+			<hr color="#B0C4DE">
+			<img id="left_column_img" src="../Images&Wireframes/column.jpg">
+		</div>
+		
+		<div id="centre_column">
+			<h3>Story</h3>
+			<hr color="#B0C4DE">
+			
+			<p align="center">Example Text</p>
+			
+		</div>
+		
+		<div id="right_column">
+			<img id="logo" align="center" src="../Images&Wireframes/logo.png">
+			<hr color="#B0C4DE">
+			
+			<div id="right_column_text">
+				<h4 id="printname"></h4>
+				<h4>Area: PLACEHOLDER</h4> 
+				<h4>Objective: PLACEHOLDER</h4>
+			</div>
+			
+			<a href="index.html">Home</a>
+		</div>
+	</body>
+</html>

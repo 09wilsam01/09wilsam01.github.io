@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="templatestyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { document.getElementById("printname").innerHTML = "Explorer: " + localStorage.getItem('name'); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="left_column">
+			<h3>Titan: Surface</h3>
+			<hr color="#B0C4DE">
+			<img id="left_column_img" src="titan.png">
+		</div>
+		
+		<div id="centre_column">
+			<h3>Story</h3>
+			<hr color="#B0C4DE">
+			
+			<br><br>
+			<p>You land on Titan with a crash and a bang!<br><br>You are uninjured, but your ship has certainly seen better days. <br>Most of the damage is cosmetic, however the engine needs several repairs.<br><br> Luckily, you've landed on the outskirts of a small backwater town. You see thin whisps of smoke rising into the atmosphere, showing signs of life.<br><br>Do you:</p>
+			<a href="searchtown.html">Go search the town in hopes of help?</a>
+			<br><p>or</p>
+			<a href="scavange.html">Scavange the nearby area for resourced to fix engine?</a>
+			
+		</div>
+		
+		<div id="right_column">
+			
+			<div id="right_column_text">
+				<h3>Stats</h3>
+				<hr color="#B0C4DE" width="323.8vw">
+				<br>
+				<h4 id="printname"></h4>
+				<br>
+				<h4>New Objective: Repair Ship</h4>
+			</div>
+			
+			<a id="homelink" href="index.html">Home</a>
+		</div>
+	</body>
+</html>
