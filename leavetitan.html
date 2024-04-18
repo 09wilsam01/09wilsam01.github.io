@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="templatestyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { document.getElementById("printname").innerHTML = "Explorer: " + localStorage.getItem('name'); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="left_column">
+			<h3>The Solar System</h3>
+			<hr color="#B0C4DE">
+			<img id="left_column_img" src="titan.png">
+		</div>
+		
+		<div id="centre_column">
+			<h3>Story</h3>
+			<hr color="#B0C4DE">
+			<br>
+			<br>
+			<p>You leave Titan, with a newly repaired ship.<br><br><br>The End</p>
+			<a href="end.html">More coming soon...</a>
+			
+		</div>
+		
+		<div id="right_column">
+			
+			<div id="right_column_text">
+				<h3>Stats</h3>
+				<hr color="#B0C4DE" width="323.8vw">
+				<br>
+				<h4 id="printname"></h4>
+				<br>
+				<h4></h4>
+				<h4>New Objective: Continue on</h4>
+			</div>
+			
+			<a id="homelink" href="index.html">Home</a>
+		</div>
+	</body>
+</html>

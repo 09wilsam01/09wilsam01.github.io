@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="templatestyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { document.getElementById("printname").innerHTML = "Explorer: " + localStorage.getItem('name'); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="left_column">
+			<h3>Null</h3>
+			<hr color="#B0C4DE">
+			<img id="left_column_img" src="column.jpg">
+		</div>
+		
+		<div id="centre_column">
+			<h3>Story</h3>
+			<hr color="#B0C4DE">
+			<br>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tincidunt sapien, in viverra ante. Quisque tempor purus vitae risus facilisis, ut venenatis felis venenatis. Curabitur sit amet tincidunt ligula. Donec facilisis augue at magna imperdiet malesuada. Sed vel nibh ultricies, tempor augue vitae, sagittis felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam a congue felis, ac accumsan ipsum. Integer porttitor euismod placerat. Sed lobortis eleifend mattis. Duis sed iaculis mi. Curabitur semper at mi nec malesuada. Nullam tincidunt dignissim orci sit amet euismod. Integer accumsan ipsum mi, ac vestibulum dolor suscipit in.</p>
+			
+		</div>
+		
+		<div id="right_column">
+			
+			<div id="right_column_text">
+				<h3>Stats</h3>
+				<hr color="#B0C4DE" width="323.8vw">
+				<br>
+				<h4 id="printname"></h4>
+				<br>
+				<h4></h4>
+				<h4>Objective: Null</h4>
+			</div>
+			
+			<a id="homelink" href="index.html">Home</a>
+		</div>
+	</body>
+</html>

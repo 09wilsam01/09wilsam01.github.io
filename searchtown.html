@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="templatestyles.css">
+		<script src="spaceJS.js"></script>
+		<script>
+			window.onload = (event) => { document.getElementById("printname").innerHTML = "Explorer: " + localStorage.getItem('name'); };
+		</script>
+		<title>Tales of the Space Age</title>
+	</head>
+	
+	<body>
+		<div id="left_column">
+			<h3>Titan: Surface</h3>
+			<hr color="#B0C4DE">
+			<img id="left_column_img" src="titan.png">
+		</div>
+		
+		<div id="centre_column">
+			<h3>Story</h3>
+			<hr color="#B0C4DE">
+			<br>
+			<br>
+			<p>You head towards the town, following a dirt track leading in. <br><br> Entering, you find the area dotted in small huts and houses. Further in, small shops and stalls engulf you in scents and smoke, with vibrant colours all around.<br><br>You manage to find a repairman who knows a small amount about engine repairs. Leading him back to your ship, toolbox in hand, you tell him what happened to the ship, explaining the engine issues.<br><br> He begins repairing the engine, repurposing scrap metal brought along. The man is able to fix the engine, bringing it roaring back to life.<br><br></p>
+			<a href="leavetitan.html">You leave Titan.</a>
+			
+		</div>
+		
+		<div id="right_column">
+			
+			<div id="right_column_text">
+				<h3>Stats</h3>
+				<hr color="#B0C4DE" width="323.8vw">
+				<br>
+				<h4 id="printname"></h4>
+				<br>
+				<h4>Main Objective: Repair ship</h4>
+				<h4>New Objective: Search town for help</h4>
+			</div>
+			
+			<a id="homelink" href="index.html">Home</a>
+		</div>
+	</body>
+</html>
